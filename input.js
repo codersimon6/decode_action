@@ -2,6 +2,7 @@
  * cron "5 0,18 * * *" YiLi.js
  * export YiLi='[{"mobile": "1", "openId": "1", "unionId": "1", "nickName": "1", "avatarUrl": "1", "yiliToken":"1"},{"mobile": "2", "openId": "2", "unionId": "2", "nickName": "2", "avatarUrl": "2", "yiliToken":"2"}]'//yiliToken是域名msmarket.msx.digitalyili.com的access-token
  * export YiLi_Open='true'//翻牌
+ *
  */
 const $ = new Env('伊利-春节')
 const notify = $.isNode() ? require('../sendNotify') : '';
